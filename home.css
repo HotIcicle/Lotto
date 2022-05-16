@@ -1,0 +1,113 @@
+.date {
+    font-size: 30px;
+    font-weight: bold;
+    color: chartreuse;
+}
+
+.time {
+    font-size: 50px;
+    font-weight: bold;
+    color: ivory;
+}
+
+hr {
+    background-color: ivory;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link {
+    color : white;
+}
+
+a:visited {
+    color : white;
+}
+
+a:hover {
+    color : blue;
+}
+
+a:active {
+    color : green;
+}
+
+#header {
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+    width: 100vw;
+}
+
+#header .header_logo {
+    float: left;
+    width: 400px;
+    height: 100px;
+    font-size: 30px;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+#header .header_home {
+    float: left;
+    width: 200px;
+    height: 100px;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+#header .header_watch {
+    float: left;
+    width: 200px;
+    height: 100px;
+    line-height: 60px;
+}
+
+#header .header_number {
+    float: left;
+    width: 200px;
+    height: 100px;
+    line-height: 60px;
+}
+
+#header .header_credit {
+    float: left;
+    width: 200px;
+    height: 100px;
+    line-height: 60px;
+}
+
+#header .header_logout {
+    float: left;
+    width: 200px;
+    height: 100px;
+    line-height: 60px;
+}
+
+.wrapper {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background: #282828;
+}
+
+.fontblack {
+    color: whitesmoke;
+    font-size: 25px;
+}
