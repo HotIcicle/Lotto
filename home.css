@@ -51,8 +51,8 @@ a:active {
 #header {
     height: 100px;
     text-align: center;
-    display: inline-block;
-    width: 100vw;
+    display: inline-block
+    width: 150vw;
 }
 
 #header .header_logo {
