@@ -51,7 +51,7 @@ a:active {
 #header {
     height: 100px;
     text-align: center;
-    display: inline-block
+    display: inline-block;
     width: 150vw;
 }
 
@@ -110,8 +110,4 @@ a:active {
 .fontblack {
     color: whitesmoke;
     font-size: 25px;
-}
-
-.sc {
-    overflow: scroll;
 }
