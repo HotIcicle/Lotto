@@ -1,75 +1,118 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr"> 
-  <head>
-    <meta charset="utf-8">
-    <title>L O T T O - watch</title>
-    <link rel="stylesheet" href="home.css">
-    <meta http-equiv="refresh" content="180; url=https://www.youtube.com/c/HotIcicle/featured">
+.date {
+    font-size: 30px;
+    font-weight: bold;
+    color: chartreuse;
+}
 
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Gothic&family=Noto+Sans+KR&display=swap');
-    </style>
-  </head>
-    <body>
-      <div id="container">
+.time {
+    font-size: 50px;
+    font-weight: bold;
+    color: ivory;
+}
 
-        <div id="header">
+hr {
+    background-color: ivory;
+}
 
-          <div class="header_logo">
-            <h3, style="font-family: 'Jua', sans-serif;">
-              <a href="home.html">
-                L O T T O
-              </a>
-            </h3>
-          </div>
-  
-          <div class="header_home">
-            <h2>
-              <a href="home.html">HOME</a>
-            </h2>
-          </div>
-  
-          <div class="header_watch">
-            <h2>
-              <a href="watch.html">WATCH</a>
-            </h2>
-          </div>
-  
-          <div class="header_number">
-            <h2>
-              <a href="number.html">NUMBER</a>
-            </h2>
-          </div>
-  
-          <div class="header_credit">
-            <h2>
-              <a href="credit.html">CREDIT</a>
-            </h2>
-          </div>
+body {
+    margin: 0;
+    background-color: black;
+}
 
-          <div class="header_logout">
-            <h2>
-              <a href="login.html">LOGOUT</a>
-            </h2>
-          </div>
+#container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
-        </div>
+a{
+    text-decoration: none;
+}
 
-        <div>
-          <hr>
-        </div>
+a:link {
+    color : white;
+}
 
-        <div class="wrapper">
-          <video src="video.mp4" controls autoplay muted width="900">VIDEO</video>
-        </div>
+a:visited {
+    color : white;
+}
 
-      </div>
-      
+a:hover {
+    color : blue;
+}
 
-        <div class="main">
-          <div id="time" class="time"></div>
-          <div id="date" class="date"></div>
-        </div>
-    </body>
+a:active {
+    color : green;
+}
 
-</html>
+#header {
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+    width: 150vw;
+}
+
+#header .header_logo {
+    float: left;
+    width: 400px;
+    height: 100px;
+    font-size: 30px;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+#header .header_home {
+    float: left;
+    width: 200px;
+    height: 100px;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+#header .header_watch {
+    float: left;
+    width: 200px;
+    height: 100px;
+    line-height: 60px;
+}
+
+#header .header_number {
+    float: left;
+    width: 200px;
+    height: 100px;
+    line-height: 60px;
+}
+
+#header .header_credit {
+    float: left;
+    width: 200px;
+    height: 100px;
+    line-height: 60px;
+}
+
+#header .header_logout {
+    float: left;
+    width: 200px;
+    height: 100px;
+    line-height: 60px;
+}
+
+.wrapper {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background: #282828;
+}
+
+.fontblack {
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+.fontcolor {
+    color: #282828;
+    font-size: 25px;
+}
