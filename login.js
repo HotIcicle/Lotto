@@ -4,7 +4,7 @@ const login = document.getElementById('login')
 let errStack = 0;
 
 login.addEventListener('click', () => {
-    if (id.value == 'hoticicle') {
+    if (id.value == 'sunwoo') {
         if (password.value == '1016') {
             alert('로그인 되었습니다!')
             window.location.href = "home.html";
