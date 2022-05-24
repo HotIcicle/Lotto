@@ -5,7 +5,7 @@ let errStack = 0;
 
 login.addEventListener('click', () => {
     if (id.value == 'hoticicle') {
-        if (password.value == '0000') {
+        if (password.value == '1015') {
             alert('로그인 되었습니다!')
             window.location.href = "home.html";
         }
